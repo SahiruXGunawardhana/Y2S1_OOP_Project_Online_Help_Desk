@@ -1,0 +1,194 @@
+@charset "UTF-8";
+* {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', sans-serif;
+        }
+
+        html, body {
+            height: 100%;
+            background: linear-gradient(-45deg, #9ab4dd, #e7f0f4, #c1d3e6, #a0c4ff);
+            background-size: 400% 400%;
+            animation: backgroundAnimation 15s ease infinite;
+        }
+
+        @keyframes backgroundAnimation {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        header {
+            background: #007BFF;
+            color: #fff;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 1000;
+        }
+
+        .headname {
+            background-color: rgb(0, 64, 128);
+            padding: 20px;
+            text-align: center;
+            color: rgb(228, 228, 228);
+            font-size: 36px;
+            font-family: 'Arial', sans-serif;
+        }
+
+        .navbar {
+        background: linear-gradient(to left, rgb(62, 158, 255), rgb(0, 99, 198));
+        padding: 10px;
+        border-radius: 0 0 15px 15px;
+        }
+
+        .navbar ul {
+          display: flex;
+          justify-content: flex-start;
+          list-style: none;
+          gap: 15px;
+        }
+
+        .navbar a {
+          color: #fff;
+          text-decoration: none;
+          font-size: 16px;
+          font-weight: bold;
+          padding: 10px 15px;
+          transition: 0.3s;
+        }
+        
+        .navbar a:hover {
+          color: rgba(51, 51, 51, 0.7);
+        }
+        .container {
+            max-width: 95%;
+            margin: 180px auto 100px; /* spacing from header and footer */
+            background-color: rgba(240, 248, 255, 0.95);
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+            overflow-x: auto;
+        }
+
+        .title {
+            text-align: center;
+            font-size: 32px;
+            color: #2c3e50;
+            margin-bottom: 25px;
+            font-weight: 600;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            table-layout: fixed;
+            word-wrap: break-word;
+        }
+
+        th, td {
+            padding: 12px 10px;
+            text-align: center;
+            border: 1px solid #ddd;
+            font-size: 14px;
+            white-space: normal;
+            word-wrap: break-word;
+        }
+
+        th {
+            background-color: #4f7db6;
+            color: white;
+            font-weight: 500;
+            position: sticky;
+            top: 0;
+            z-index: 1;
+        }
+
+        td:nth-child(4),
+        td:nth-child(9) {
+            max-width: 200px;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        tr:hover {
+            background-color: #e6f0f8;
+        }
+
+        .action-buttons {
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .action-buttons button {
+            padding: 6px 12px;
+            border: none;
+            border-radius: 5px;
+            font-size: 13px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .action-buttons .updateTk {
+            background-color: #28a745;
+            color: white;
+        }
+
+        .action-buttons form button {
+            background-color: #e74c3c;
+            color: white;
+        }
+
+        .action-buttons .updateTk:hover {
+            background-color: #218838;
+        }
+
+        .action-buttons form button:hover {
+            background-color: #c0392b;
+        }
+
+        footer {
+          background: #007BFF;
+          color: #fff;
+          text-align: center;
+          padding: 30px 0;
+          width: 100%;
+          margin-top: 40px; /* Optional spacing above footer */
+        }
+
+        .footer-links {
+            list-style: none;
+            padding: 0;
+            margin-bottom: 15px;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .footer-links li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .social-icons a {
+            font-size: 20px;
+            color: #fff;
+            margin: 0 10px;
+        }
+
+        @media (max-width: 768px) {
+            th, td {
+                font-size: 12px;
+            }
+
+            .action-buttons {
+                flex-direction: column;
+                gap: 5px;
+            }
+        }

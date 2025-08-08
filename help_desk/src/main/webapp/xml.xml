@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+         http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+
+     <servlet>
+     	<servlet-name> InsertArticleServlet</servlet-name>
+     	<servlet-class>ManageArticles.InsertArticleServlet</servlet-class>
+     </servlet>
+     <servlet-mapping>
+     	<servlet-name>InsertArticleServlet</servlet-name>
+     	<url-pattern>/InsertArticleServlet</url-pattern>
+     </servlet-mapping>
+     
+     
+      <servlet>
+     	<servlet-name> ViewArticleServlet</servlet-name>
+     	<servlet-class>ManageArticles.ViewArticleServlet</servlet-class>
+     </servlet>
+     <servlet-mapping>
+     	<servlet-name>ViewArticleServlet</servlet-name>
+     	<url-pattern>/ViewArticleServlet</url-pattern>
+     </servlet-mapping>
+     
+     
+     <servlet>
+     	<servlet-name> UpdateArticleServlet</servlet-name>
+     	<servlet-class>ManageArticles.UpdateArticleServlet</servlet-class>
+     </servlet>
+     <servlet-mapping>
+     	<servlet-name>UpdateArticleServlet</servlet-name>
+     	<url-pattern>/UpdateArticleServlet</url-pattern>
+     </servlet-mapping>
+     
+     
+     
+      <servlet>
+     	<servlet-name> DeleteArticleServlet</servlet-name>
+     	<servlet-class>ManageArticles.DeleteArticleServlet</servlet-class>
+     </servlet>
+     <servlet-mapping>
+     	<servlet-name>DeleteArticleServlet</servlet-name>
+     	<url-pattern>/DeleteArticleServlet</url-pattern>
+     </servlet-mapping>
+     
+     
+
+
+</web-app>

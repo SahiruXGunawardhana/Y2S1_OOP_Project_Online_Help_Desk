@@ -1,0 +1,108 @@
+@charset "UTF-8";
+/* General body styling with light background */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      min-height: 100vh;
+      background: linear-gradient(-45deg, #80a0d1, #f0f4f6, #a0c1d1, #dfe9f3);
+      background-size: 400% 400%;
+      animation: gradientBG 15s ease infinite;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    /* Login container */
+    .login-container {
+      width: 350px;
+      padding: 20px;
+      background-color: rgba(214, 225, 226, 0.95); /* transparent white look */
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* stronger shadow */
+      border-radius: 8px;
+    }
+    
+    /* Heading */
+    .login-container h1 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #2c3e50;
+    }
+    
+    /* Form styling */
+    .form-group {
+      margin-bottom: 15px;
+    }
+    
+    .form-group label {
+      display: block;
+      margin-bottom: 5px;
+      color: #555;
+    }
+    
+    /* Input field styling with no outline or border by default */
+    .form-group input {
+      width: 100%;
+      padding: 8px;
+      box-sizing: border-box;
+      border: none; /* Remove border completely */
+      border-radius: 4px;
+      outline: none; /* Remove default outline */
+      background-color: rgba(255, 255, 255, 0.8); /* Light background to distinguish the field */
+      transition: border-color 0.3s, box-shadow 0.3s; /* Smooth transition for focus effect */
+    }
+    
+    /* Focus style with blue highlight */
+    .form-group input:focus {
+      border-color: #4f7db6; /* Blue border when focused */
+      box-shadow: 0 0 0 3px rgba(79, 125, 182, 0.3); /* Blue glow effect */
+    }
+    
+    /* Submit button */
+    .form-group input[type="submit"] {
+      background-color: #4f7db6;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    
+    .form-group input[type="submit"]:hover {
+      background-color: #0056b3;
+    }
+    
+    /* Register section */
+    .register-section {
+      text-align: center;
+      margin-top: 20px;
+    }
+    
+    .register-section input[type="submit"] {
+      background-color: #2ec344;
+      color: white;
+      border: none;
+      padding: 8px 16px;
+      border-radius: 4px;
+      cursor: pointer;
+      outline: none; /* Remove default outline */
+    }
+    
+    .register-section input[type="submit"]:hover {
+      background-color: #08a108ce;
+    }
+    
+    .register-section input[type="submit"]:focus {
+      box-shadow: 0 0 0 3px rgba(46, 195, 68, 0.3); /* Green glow effect */
+    }
+    
+    /* Gradient animation */
+    @keyframes gradientBG {
+      0% {
+        background-position: 0% 50%;
+      }
+      50% {
+        background-position: 100% 50%;
+      }
+      100% {
+        background-position: 0% 50%;
+      }
+    }

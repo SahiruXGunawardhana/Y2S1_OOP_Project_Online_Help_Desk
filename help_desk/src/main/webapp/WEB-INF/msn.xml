@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+         http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+         
+     <!-- ticketRaise package -->   
+	<servlet>
+    <servlet-name>TicketInsertServlet5414 </servlet-name>
+    <servlet-class>ticketRaisePackage.TicketInsertServlet5414</servlet-class>
+     </servlet>
+     <servlet-mapping>
+     	<servlet-name>TicketInsertServlet5414</servlet-name>
+     	<url-pattern>/TicketInsertServlet5414</url-pattern>
+     </servlet-mapping>
+     
+     <servlet>
+     	<servlet-name>GetAllTicketServlet5414 </servlet-name>
+     	<servlet-class>ticketRaisePackage.GetAllTicketServlet5414</servlet-class>
+     </servlet>
+     <servlet-mapping>
+     	<servlet-name>GetAllTicketServlet5414</servlet-name>
+     	<url-pattern>/GetAllTicketServlet5414</url-pattern>
+     </servlet-mapping>
+     
+      <servlet>
+     	<servlet-name>UpdateTicketServlet5414 </servlet-name>
+     	<servlet-class>ticketRaisePackage.UpdateTicketServlet5414</servlet-class>
+     </servlet>
+     <servlet-mapping>
+     	<servlet-name>UpdateTicketServlet5414</servlet-name>
+     	<url-pattern>/UpdateTicketServlet5414</url-pattern>
+     </servlet-mapping>
+     
+     <servlet>
+     	<servlet-name>DeleteTicketServlet5414</servlet-name>
+     	<servlet-class>ticketRaisePackage.DeleteTicketServlet5414</servlet-class>
+     </servlet>
+     <servlet-mapping>
+     	<servlet-name>DeleteTicketServlet5414</servlet-name>
+     	<url-pattern>/DeleteTicketServlet5414</url-pattern>
+     </servlet-mapping>
+	
+	<!-- User package -->
+	<servlet>
+     	<servlet-name>UserInsertServlet5414</servlet-name>
+     	<servlet-class>UserPackage.UserInsertServlet5414</servlet-class>
+     </servlet>
+     <servlet-mapping>
+     	<servlet-name>UserInsertServlet5414</servlet-name>
+     	<url-pattern>/UserInsertServlet5414</url-pattern>
+     </servlet-mapping>
+     
+     <servlet>
+     	<servlet-name>LoginServlet5414</servlet-name>
+     	<servlet-class>UserPackage.LoginServlet5414</servlet-class>
+     </servlet>
+     <servlet-mapping>
+     	<servlet-name>LoginServlet5414</servlet-name>
+     	<url-pattern>/LoginServlet5414</url-pattern>
+     </servlet-mapping>
+     
+     <servlet>
+     	<servlet-name>ProfileServlet5414</servlet-name>
+     	<servlet-class>UserPackage.ProfileServlet5414</servlet-class>
+     </servlet>
+     <servlet-mapping>
+     	<servlet-name>ProfileServlet5414</servlet-name>
+     	<url-pattern>/ProfileServlet5414</url-pattern>
+     </servlet-mapping>
+     
+     <servlet>
+     	<servlet-name>UpdateProfileServlet</servlet-name>
+     	<servlet-class>UserPackage.UpdateProfileServlet</servlet-class>
+     </servlet>
+     <servlet-mapping>
+     	<servlet-name>UpdateProfileServlet</servlet-name>
+     	<url-pattern>/UpdateProfileServlet</url-pattern>
+     </servlet-mapping>
+     
+     <servlet>
+     	<servlet-name>DeleteProfile5414</servlet-name>
+     	<servlet-class>UserPackage.DeleteProfile5414</servlet-class>
+     </servlet>
+     <servlet-mapping>
+     	<servlet-name>DeleteProfile5414</servlet-name>
+     	<url-pattern>/DeleteProfile5414</url-pattern>
+     </servlet-mapping>
+     
+     <servlet>
+     	<servlet-name>GetUserDetails5414</servlet-name>
+     	<servlet-class>UserPackage.GetUserDetails5414</servlet-class>
+     </servlet>
+     <servlet-mapping>
+     	<servlet-name>GetUserDetails5414</servlet-name>
+     	<url-pattern>/GetUserDetails5414</url-pattern>
+     </servlet-mapping>
+     
+     
+
+</web-app>

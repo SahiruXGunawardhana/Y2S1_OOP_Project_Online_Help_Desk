@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+         http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+         
+         <servlet>
+          <servlet-name>NewInsertServlet</servlet-name>
+          <servlet-class>HelpDeskPackage.InsertServlet</servlet-class>
+         </servlet>
+         
+         <servlet-mapping>
+          <servlet-name>NewInsertServlet</servlet-name>
+          <url-pattern>/NewInsertServlet</url-pattern>
+         </servlet-mapping>
+         
+         
+         <servlet>
+          <servlet-name>NewServlet</servlet-name>
+          <servlet-class>HelpDeskPackage.NewServlet</servlet-class>
+         </servlet>
+         
+         <servlet-mapping>
+          <servlet-name>NewServlet</servlet-name>
+          <url-pattern>/NewServlet</url-pattern>
+         </servlet-mapping>
+         
+         
+         <servlet>
+          <servlet-name>NewGetAllServlet</servlet-name>
+          <servlet-class>HelpDeskPackage.NewGetAllServlet</servlet-class>
+         </servlet>
+         
+         <servlet-mapping>
+          <servlet-name>NewGetAllServlet</servlet-name>
+          <url-pattern>/NewGetAllServlet</url-pattern>
+         </servlet-mapping>
+         
+          <servlet>
+          <servlet-name>NewUpdateServlet</servlet-name>
+          <servlet-class>HelpDeskPackage.NewUpdateServlet</servlet-class>
+         </servlet>
+         
+         <servlet-mapping>
+          <servlet-name>NewUpdateServlet</servlet-name>
+          <url-pattern>/NewUpdateServlet</url-pattern>
+         </servlet-mapping>
+         
+         <servlet>
+          <servlet-name>NewDeleteServlet</servlet-name>
+          <servlet-class>HelpDeskPackage.NewDeleteServlet</servlet-class>
+         </servlet>
+         
+         <servlet-mapping>
+          <servlet-name>NewDeleteServlet</servlet-name>
+          <url-pattern>/NewDeleteServlet</url-pattern>
+         </servlet-mapping>
+       
+         
+ 
+</web-app>

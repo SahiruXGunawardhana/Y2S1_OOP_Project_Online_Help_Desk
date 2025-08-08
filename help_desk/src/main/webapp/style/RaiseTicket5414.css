@@ -1,0 +1,216 @@
+@charset "UTF-8";
+* {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    html, body {
+      height: 100%;
+      background: linear-gradient(to right, #e3f2fd, #e0f7fa);
+    }
+
+    body {
+      display: flex;
+      flex-direction: column;
+    }
+
+    header {
+      background: #007BFF;
+      color: #fff;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      z-index: 1000;
+    }
+
+    .headname {
+      background-color: rgb(0, 64, 128);
+      padding: 20px;
+      text-align: center;
+      color: rgb(228, 228, 228);
+      font-size: 36px;
+      font-family: "Arial", sans-serif;
+    }
+
+    .navbar {
+      background: linear-gradient(to left, rgb(62, 158, 255), rgb(0, 99, 198));
+      padding: 10px;
+      border-radius: 0 0 15px 15px;
+    }
+
+    .navbar ul {
+      display: flex;
+      justify-content: flex-start;
+      list-style: none;
+      gap: 15px;
+    }
+
+    .navbar a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 16px;
+      font-weight: bold;
+      padding: 10px 15px;
+      transition: 0.3s;
+    }
+
+    .navbar a:hover {
+      color: rgba(51, 51, 51, 0.7);
+    }
+
+    .main-content {
+      margin-top: 170px;
+      padding: 20px;
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .formMain {
+      display: flex;
+      flex-direction: row;
+      max-width: 900px;
+      background-color: #e3f2fd;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      width: 100%;
+    }
+
+    .TsignForm, .Tdescription {
+      padding: 20px;
+      width: 50%;
+    }
+
+    .TsignForm h2 {
+      text-align: center;
+      margin-bottom: 30px;
+      color: #1565c0;
+      font-size: 40px;
+    }
+
+    label {
+      font-weight: bold;
+      color: #0d47a1;
+      display: block;
+      margin-bottom: 6px;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"],
+    select,
+    textarea {
+      width: 100%;
+      padding: 10px 12px;
+      margin-bottom: 20px;
+      border: 1px solid #90caf9;
+      border-radius: 5px;
+      font-size: 16px;
+      background-color: #ffffff;
+      transition: all 0.3s ease;
+    }
+
+    input:focus,
+    select:focus,
+    textarea:focus {
+      border-color: #42a5f5;
+      background-color: #e1f5fe;
+      outline: none;
+    }
+
+    textarea {
+      resize: vertical;
+    }
+
+    button {
+      background-color: #42a5f5;
+      color: white;
+      padding: 12px 24px;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+      display: block;
+      margin: 0 auto;
+      transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #1e88e5;
+    }
+
+    .Tdescription {
+      text-align: center;
+      margin-top: 50px;
+    }
+
+    .Tdescription h2{
+      font-size: 28px;
+      color: #0d47a1;
+      margin-bottom: 10px;
+    }
+    .Tdescription h3{
+      font-size: 28px;
+      color: #1565c0;
+      margin-bottom: 10px;
+    }
+
+    .Tdescription p {
+      margin-top: 20px;
+      color: #333;
+      font-size: 16px;
+      line-height: 1.5;
+    }
+
+    .support-img {
+      margin-top: 20px;
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    footer {
+      background: #007BFF;
+      color: #fff;
+      text-align: center;
+      padding: 30px 0;
+      width: 100%;
+      margin-top: 40px;
+    }
+
+    .footer-links {
+      list-style: none;
+      padding: 0;
+      margin-bottom: 15px;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .footer-links li {
+      display: inline;
+    }
+
+    .social-icons a {
+      font-size: 20px;
+      color: #fff;
+      margin: 0 10px;
+    }
+
+    @media (max-width: 900px) {
+      .formMain {
+        flex-direction: column;
+        max-width: 95%;
+      }
+
+      .TsignForm, .Tdescription {
+        width: 100%;
+        padding: 20px;
+      }
+    }
