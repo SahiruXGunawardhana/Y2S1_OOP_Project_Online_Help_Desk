@@ -2,9 +2,9 @@
 
 📌 Project Overview
 
-  &nbsp;&nbsp;This project is a web-based Online Helpdesk Platform designed for a university environment to manage student and staff &nbsp;&nbsp;support requests efficiently. The system provides a structured way to raise tickets, manage appointments, publish knowledge-&nbsp;&nbsp;base articles, and handle support interactions between users and staff.
+  &nbsp;&nbsp;This project is a web-based Online Helpdesk Platform designed for a university environment to manage student and staff support requests efficiently. The system provides a structured way to raise tickets, manage appointments, publish knowledge-base articles, and handle support interactions between users and staff.
 
-  &nbsp;&nbsp;The application follows the MVC (Model–View–Controller) architecture, ensuring clean separation of concerns, scalability, and &nbsp;&nbsp;maintainability.
+  &nbsp;&nbsp;The application follows the MVC (Model–View–Controller) architecture, ensuring clean separation of concerns, scalability, and maintainability.
 
 🔗 LinkedIn: (add your LinkedIn URL)
 
