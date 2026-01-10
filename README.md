@@ -1,4 +1,4 @@
-🎓♾️🎓 **University Online Helpdesk Platform**
+ ## University Online Helpdesk Platform 🎓♾️🎓
 
 📌 Project Overview
 
