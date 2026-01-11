@@ -1,56 +1,75 @@
- ## University Online Helpdesk Platform 🎓♾️🎓
+## 🎓♾️ University Online Helpdesk Platform ♾️🎓
 
-📌 Project Overview
+---
 
-  &nbsp;&nbsp;This project is a web-based Online Helpdesk Platform designed for a university environment to manage student and staff support requests efficiently. The system provides a structured way to raise tickets, manage appointments, publish knowledge-base articles, and handle support interactions between users and staff.
+### 📌 Project Overview
 
-  &nbsp;&nbsp;The application follows the MVC (Model–View–Controller) architecture, ensuring clean separation of concerns, scalability, and maintainability.
+This project is a **web-based Online Helpdesk Platform** designed for a university environment to manage student and staff support requests efficiently. The system provides a structured way to raise tickets, manage appointments, publish knowledge-base articles, and handle support interactions between users and staff.
 
-🔗 LinkedIn: (add your LinkedIn URL)
+This is a **group project completed by a team of 4 members**.
 
-📄 Academic Context
+The application follows the **MVC (Model–View–Controller) architecture**, ensuring clean separation of concerns, scalability, and maintainability.
 
-  - Module: OOP (Year 2 Semester 1)
-  - Project Type: Group Project
-  - Team Size: 4 members
 
-🛠️ Tech Stack
+---
 
-- Frontend: HTML, CSS
-- Backend: Java (JSP & Servlets)
-- Architecture: MVC (Model–View–Controller)
-- Database: MySQL
-- Server: Apache Tomcat
+### 🔗 LinkedIn
 
-✨ Key Features
+- *(add your LinkedIn URL)*
 
-- User registration and authentication
-- Online ticket raising and tracking
-- Staff-side ticket reply and management
-- Appointment scheduling (user & staff sides)
-- Knowledge base and article management
-- Role-based access for users and staff
-  
-🧩 Main Modules 
+---
 
-🔹 Raise Ticket Management
-- Allow users to raise support tickets
-- Track ticket status and details
-- Maintain ticket-related data in the database
+### 📄 Academic Context
 
-🔹 User Registration Management
-- User registration and login
-- Input validation and database integration
-- Session handling for authenticated users
+- **Module:** OOP (Year 2 Semester 1)
+- **Project Type:** Group Project
+- **Team Size:** 4 members
 
-🔹 Appointment Management (User & Staff)
-- Allow users to request appointments
-- Enable staff to manage and respond to appointments
+---
 
-🔹 Knowledge-Base & Article Management (Staff)
-- Create, update, and manage helpdesk articles
-- Organize articles under relevant categories
+### 🛠️ Tech Stack
 
-🔹 Ticket Reply Management (Staff)
-- Respond to user-submitted tickets
-- Update ticket status and communication history
+- **Frontend:** HTML, CSS  
+- **Backend:** Java (JSP & Servlets)  
+- **Architecture:** MVC (Model–View–Controller)  
+- **Database:** MySQL  
+- **Server:** Apache Tomcat  
+
+---
+
+### ✨ Key Features
+
+- User registration and authentication  
+- Online ticket raising and tracking  
+- Staff-side ticket reply and management  
+- Appointment scheduling (user & staff sides)  
+- Knowledge base and article management  
+- Role-based access for users and staff  
+
+---
+
+### 🧩 Main Modules
+
+#### 🔹 Raise Ticket Management
+- Allow users to raise support tickets  
+- Track ticket status and details  
+- Maintain ticket-related data in the database  
+
+#### 🔹 User Registration Management
+- User registration and login  
+- Input validation and database integration  
+- Session handling for authenticated users  
+
+#### 🔹 Appointment Management (User & Staff)
+- Allow users to request appointments  
+- Enable staff to manage and respond to appointments  
+
+#### 🔹 Knowledge-Base & Article Management (Staff)
+- Create, update, and manage helpdesk articles  
+- Organize articles under relevant categories  
+
+#### 🔹 Ticket Reply Management (Staff)
+- Respond to user-submitted tickets  
+- Update ticket status and communication history  
+
+---
